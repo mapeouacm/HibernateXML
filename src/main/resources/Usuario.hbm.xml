@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 05-abr-2017 21:20:05 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="mx.edu.uacm.hibernatexml.dominio.Usuario" table="USERHBNXML">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombreUsuario" type="java.lang.String">
+            <column name="NOMBREUSUARIO" />
+        </property>
+        <property name="mensajeUsuario" type="java.lang.String">
+            <column name="MENSAJEUSUARIO" />
+        </property>
+    </class>
+</hibernate-mapping>
